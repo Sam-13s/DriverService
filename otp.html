@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/otp.css">
+</head>
+
+<body>
+  <header>
+    <div class="pagelogo">
+      <div class="brandname">
+        <h2><span id="drive">DRIVE</span><span id="wave">WAVE</span></h2>
+      </div>
+      <div class="backbtn">
+        <a id="homebtn" href="home.php">
+          <i class="fa fa-home"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="contain">
+    <button class="bbtn" id="id1">Online Payment</button>
+    <button class="bbtn" id="id2">Cash Payment</button>
+    <form action="#" class="f1">
+      <h2>Payment Method(Online Payment)</h2>
+      <label for="card-number">Card Number:</label>
+      <input type="number" id="card-number" name="card-number" required>
+
+      <label for="expiry-date">Expiry Date:</label>
+      <input type="date" id="expiry-date" name="expiry-date" required>
+
+      <label for="cvv">CVV:</label>
+      <input type="number" id="cvv" name="cvv" required>
+
+      <label for="card-holder-name">Card Holder Name:</label>
+      <input type="text" id="card-holder-name" name="card-holder-name"  required>
+
+      <!-- <a href="./blank.html"> -->
+        <button type="submit" id="btn" onclick="window.open('thankyou.html' , '_blank')">| SUBMIT |</button>
+      <!-- </a> -->
+    </form>
+
+    
+    <form action="#" class="f2">
+      <h2>Payment Method(cash Payment)</h2>
+      <h2 class="ptext">Payment will done in <b>cash..</b></h2>
+
+        <button type="submit" id="btn" onclick="window.open('thankyou.html' , '_blank')">| SUBMIT |</button>
+    </form>
+  </div>
+
+  <footer>
+    <div class="foothead">
+      <h2 id="head">DRIVE</h2>
+      <h2 id="heading">WAVE</h2>
+    </div>
+    <hr>
+    <div class="footcontainer">
+      <div id="footservices">
+        <h3>SERVICES</h3>
+        <p>Hire Drivers</p>
+        <p>Car Wash</p>
+        <p>DriveWave Coins</p>
+      </div>
+      <div class="footabout">
+        <h3>ABOUT US</h3>
+        <p>Team</p>
+        <p>Blog</p>
+        <p>Contact Us</p>
+      </div>
+      <div id="socialmedia">
+        <h3 id="follow">Follow Us</h3>
+        <br>
+        <a href="https://www.instagram.com/driveu.in/"><img src="images/insta.png" alt="instagram"></a>
+        <a href="https://www.facebook.com/DriveU.in/"><img src="images/fb.png" alt="facebook"></a>
+        <a href="https://www.youtube.com/@DriveuIn"><img src="images/yt.png" alt="youtube"></a>
+        <br>
+        <a href="https://twitter.com/driveu_in/"><img src="images/twitt.png" alt="twitter"></a>
+        <a href="https://www.linkedin.com/"><img src="images/linkdin.png" alt="linkdin"></a>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <div class="terms">
+      <h3>Terms & Conditions | Privacy Policy | Refund Cancellation policy</h3>
+      <h5>&copy; ASHWINI ICHAKE...! All Rights Reserved.<br>
+       PUNE-411033.All Rights Reserved.</h5>
+    </div>
+  </footer>
+<script src="js/otp.js"></script>
+</body>
+
+</html>

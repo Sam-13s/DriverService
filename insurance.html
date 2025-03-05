@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payment Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/otp.css" />
+</head>
+
+<body>
+  <header>
+    <div class="pagelogo">
+      <div class="brandname">
+        <h2><span id="drive">DRIVE</span><span id="wave">WAVE</span></h2>
+      </div>
+      <div class="backbtn">
+        <a id="homebtn" href="home.php">
+          <i class="fa fa-home"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="contain">
+    <form action="#" class="f1">
+      <h2>DRIVER'S INSURANCE</h2>
+      <label for="card-number">Full Name:</label>
+      <input type="text" id="card-number" name="card-number" required />
+
+      <label for="expiry-date">E-mail:</label>
+      <input type="email" id="expiry-date" name="expiry-date" required />
+
+      <label for="cvv">Phone:</label>
+      <input type="number" id="cvv" name="cvv" required />
+
+      <label for="card-holder-name">Date of Birth:</label>
+      <input type="date" id="card-holder-name" name="card-holder-name" required />
+
+      <label for="license">Driver's License Number:</label>
+      <input type="text" id="license" name="license" required />
+
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" required />
+
+      <label for="zip">Zip Code:</label>
+      <input type="text" id="zip" name="zip" required />
+
+      <label for="years">Years of Driving Experience:</label>
+      <input type="number" id="years" name="years" min="0" required />
+
+      <label for="model">Vehicle Model:</label>
+      <input type="text" id="model" name="model" required />
+
+      <label for="year">Vehicle Year:</label>
+      <input type="number" id="year" name="year" min="1900" max="2023" required />
+
+      <label for="mileage">Annual Mileage:</label>
+      <input type="number" id="mileage" name="mileage" min="0" required />
+
+      <button type="submit" id="btn" onclick="window.open('thankyou.html' , '_blank')">
+        | SUBMIT |
+      </button>
+      <!-- </a> -->
+    </form>
+  </div>
+
+  <footer>
+    <div class="foothead">
+      <h2 id="head">DRIVE</h2>
+      <h2 id="heading">WAVE</h2>
+    </div>
+    <hr>
+    <div class="footcontainer">
+      <div id="footservices">
+        <h3>SERVICES</h3>
+        <p>Hire Drivers</p>
+        <p>Car Wash</p>
+        <p>DriveWave Coins</p>
+      </div>
+      <div class="footabout">
+        <h3>ABOUT US</h3>
+        <p>Team</p>
+        <p>Blog</p>
+        <p>Contact Us</p>
+      </div>
+      <div id="socialmedia">
+        <h3 id="follow">Follow Us</h3>
+        <br>
+        <a href="https://www.instagram.com/driveu.in/"><img src="images/insta.png" alt="instagram"></a>
+        <a href="https://www.facebook.com/DriveU.in/"><img src="images/fb.png" alt="facebook"></a>
+        <a href="https://www.youtube.com/@DriveuIn"><img src="images/yt.png" alt="youtube"></a>
+        <br>
+        <a href="https://twitter.com/driveu_in/"><img src="images/twitt.png" alt="twitter"></a>
+        <a href="https://www.linkedin.com/"><img src="images/linkdin.png" alt="linkdin"></a>
+      </div>
+    </div>
+    <br>
+    <hr>
+    <div class="terms">
+      <h3>Terms & Conditions | Privacy Policy | Refund Cancellation policy</h3>
+      <h5>&copy; ASHWINI ICHAKE...! All Rights Reserved.<br>
+       PUNE-411033.All Rights Reserved.</h5>
+    </div>
+  </footer>
+  <script src="js/otp.js"></script>
+</body>
+
+</html>
