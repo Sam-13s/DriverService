@@ -1,0 +1,209 @@
+.content{
+    height: 5000px;
+}
+
+
+.content .daily-driver{
+    width: 1100px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-left: 30px;
+    margin-top: 20px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content .top{
+    display: flex;
+    margin-top: 110px;
+}
+
+.content .topdes{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 550px;
+    height: 450px;
+    position: absolute;
+    right: 50px;
+    top: 200px;
+    z-index: 0;
+    background-color: white;
+}
+
+.content .innerdes{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.content hr {
+    border: 1px solid black;
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+.content h1{
+    font-weight:bold;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content .book_btn{
+    background-color: orange;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 14px;
+    width: 150px;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+.content .book_btn:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.content span{
+    color: orange;
+    text-decoration: underline;
+}
+
+.content .info{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.content .info p {
+    color: #999;
+    margin-top: 45px;
+}
+
+.content .hourly-driver{
+    width: 1100px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-left: 30px;
+    margin-top: 20px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content .top2{
+    display: flex;
+    margin-top: 110px;
+}
+
+.content .topdes2{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 550px;
+    height: 450px;
+    position: absolute;
+    right: 50px;
+    top: 1800px;
+    z-index: 0;
+    background-color: white;
+}
+
+.content .innerdes2{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.content .night-driver{
+    width: 1100px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-left: 30px;
+    margin-top: 20px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content .top3{
+    display: flex;
+    margin-top: 110px;
+}
+
+.content .topdes3{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 550px;
+    height: 450px;
+    position: absolute;
+    right: 50px;
+    top: 3480px;
+    z-index: 0;
+    background-color: white;
+}
+
+.content .innerdes3{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.content .charges-head{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content .charges{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.content table tr , th , td{
+    padding: 20px;
+    font-size: 20px; 
+}
+
+.content table th{
+    background-color: rgb(238, 177, 64);
+}
+
+.content table td{
+    background-color: whitesmoke;
+}
+
+.content #charges_btn{
+    text-align: center;
+}
+
+.content .charges_btn {
+    margin-top: 50px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    background-color: rgb(44, 40, 40);
+    color: whitesmoke;
+}
+
+.content .charges_btn:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.content .charges_bottom{
+    border: 3px solid grey;
+    width: 60%;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: -100px;
+}

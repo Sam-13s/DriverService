@@ -1,0 +1,186 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('booking.jpg');
+    background-size: contain;
+}
+
+.content.tt{
+    height: 800px;
+}
+
+.content section{
+    position: absolute;
+    top: 230px;
+    left: 150px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    line-height: 50px;
+    backdrop-filter: blur(5px);
+    text-align: start;
+}
+
+.content .pro_box{
+    position: absolute;
+    right: 100px;
+    top: 120px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    width: 600px;
+    height: 550px;
+}
+
+.content .profile{
+    height: 60px;
+    width: 550px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+}
+
+.content .profile #profile{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(71, 70, 70);
+    letter-spacing: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content .drive-profile{
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    border-radius: 8px;
+    height: 400px;
+    width: 550px;
+    overflow-y: scroll;
+    background-image: url('map.jpg');
+    backdrop-filter: blur(5px);
+    background-size: cover;
+}
+
+.content .drive-profile.in{
+    display: block;
+}
+
+.content .drive-profile .color{
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    height: 120px;
+    width: 350px;
+    background-color: rgb(49, 163, 209);
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.content .drive-profile .color:hover {
+    border: 3px solid whitesmoke;
+}
+
+.drive-profile img{
+    position: absolute;
+    left: 300px;
+    top: 40px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+.content .driver-info{
+    position: absolute;
+    top: 80px;
+    left: 140px;
+}
+
+.driver-info h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.driver-info p{
+    font-style: italic;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+.driver-info span{
+    font-size: 10px;
+    position: relative;
+    top: -14px;
+    color: orange;
+    margin: 2px;
+}
+
+.driver-info .d1{
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.driver-info .d1:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.drive-profile .profile1{
+    position: absolute;
+    top: 130px;
+}
+
+.drive-profile .profile2{
+    position: absolute;
+    top: 290px;
+}
+
+.drive-profile .profile3{
+    position: absolute;
+    top: 450px;
+}
+
+.drive-profile .profile4{
+    position: absolute;
+    top: 610px;
+}
+.drive-profile .profile5{
+    position: absolute;
+    top: 770px;
+}
+
+.profile1 .driver-info,
+.profile2 .driver-info,
+.profile3 .driver-info,
+.profile4 .driver-info,
+.profile5 .driver-info{
+    width: 99.56px;
+}
+
+.drive-profile .text{
+    position: relative;
+    top: 15px;
+    left: 135px;
+    width: 270px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+    border-radius: 5px;
+    border: 2px dotted black;
+    color: rgb(71, 70, 70);
+}

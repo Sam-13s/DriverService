@@ -1,0 +1,38 @@
+.content{
+  height: 700px;
+}
+
+.aboutt{
+  display: flex;
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}
+
+.aboutt .textt h1{
+  text-align: start;
+}
+
+.aboutt .textt p{
+  text-align: start;
+  color: #787878;
+  font-size: 18px;
+}
+
+.span{
+  color: #3b3b3b;
+}
+.aboutt .imgg img{
+  height: 500px;
+  width: 500px;
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+.side-img img{
+  height: 300px;
+  width: 180px;
+  position: absolute;
+  bottom: 60px;
+}
